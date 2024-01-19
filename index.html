@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacolão</title>
+    <link rel="stylesheet" href='style.css' />
+    <script src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="balanca">
+        <h1 class="titulo">Balança total</h1>
+        <div class="info-box">
+            <h3>Peso (g)</h3>
+            <input type="number" placeholder="0" value="" id="input-peso" maxlength="5">
+        </div>
+        <div class="info-box">
+            <h3>Produto</h3>
+            <select name="produtos" id="select-produtos">
+                <option value="0.00">Selecione um produto</option>
+                <option value="2.79">Banana Caturra</option>
+                <option value="3.49">Banana Prata</option>
+                <option value="5.49">Maçã</option>
+                <option value="1.89">Limão</option>
+                <option value="2.39">Mandioca</option>
+                <option value="3.79">Mamão</option>
+                <option value="2.29">Batata</option>
+                <option value="8.79">Pêra</option>
+                <option value="3.69">Abacate</option>
+                <option value="2.29">Beterraba</option>
+                <option value="5.29">Tomate</option>
+            </select>
+        </div>
+        <div class="info-box">
+            <h3>Preço / Kg</h3>
+            <p id="display-preco-kg">0</p>
+        </div>
+        <div class="info-box">
+            <h3>Preço Total (R$)</h3>
+            <p id="preco-total">0,00</p>
+        </div>
+    </div>
+</body>
+
+</html>

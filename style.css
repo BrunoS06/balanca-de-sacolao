@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #EDF8F9;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+.balanca {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    width: calc(100% - 16px);
+    
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-box > h3 {
+    color: #242424;
+    font-family: Roboto;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.info-box > input, .info-box > p, .info-box > select {
+    margin: 0;
+    border: none;
+    padding: 8px;
+    background-color: #6ACDC1;
+    border-radius: 12px;
+    min-height: 28px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #FDFFFE;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+/* body{
+    background-image: url("sacolao.jpg")
+}
+
+.titulo {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 150px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.balanca{
+    background-color: rgba(168, 164, 164, 0.795);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 70vh;
+    border-radius: 10%;
+    border-color: black;
+    
+}
+
+#titulo-balanca{
+    display: flex;
+    height: 8vh;
+    width: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#titulo-peso{
+    display: flex;
+    width: 7vw;
+    margin-left: 10vw;
+    justify-content: center;
+}
+
+#titulo-precokg{
+    display: flex;
+    width: 14vw;
+    justify-content: center;
+
+    
+
+} */
+
+@font-face{
+    font-family:'DS-Digital';
+    src: url(Fonts/DS-DIGI.TTF);
+   }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus{
+  outline: none;
+}
